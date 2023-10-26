@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Lista Ex</title>
+    <script src="script.js"></script>
+</head>
+<body onload="setInitialTextareaContent()">
+
+    <h1 class="title-info">Informações do Aluno</h1><br>
+    <p class="info"><strong>Nome:</strong> Isabelly Martins Mota</strong> <br> <strong>Turma:</strong> 2021</strong></p>
+
+    <h1 class="title-info">Solução dos Exercícios</h1><br>
+
+    <p>1 - Escreva um programa que mostre a soma de todos os divisores de um dado número X. Um
+        divisor é qualquer número menor que X cujo resto da divisão é igual a 0.<br>    
+        Exemplo: Para X = 8, o resultado é 7, pois 7 = 1 + 2 + 4.</p>
+
+    <textarea   id="textarea1" name="ex1" rows="15" cols="80"></textarea>
+    <button type="button" onclick="verificarResposta(1)">Testar</button>
+    <p id="feedback1"></p>
+
+    <p>2 – Considere dois pontos no espaço 2D com as seguintes coordenadas: A(x 1 , y 1 ) e B(x 2 ,y 2 ). A
+    distância euclidiana D, entre estes pontos é dada pela seguinte fórmula:<br> Formula <br> um programa que calcule tal distância para coordenadas de dois pontos informados
+    pelo usuário.</p>
+
+    <textarea   id="textarea2" name="ex2" rows="15" cols="80"></textarea>
+    <button type="button" onclick="verificarResposta(2)">Testar</button>
+    <p id="feedback3"></p>
+
+
+
+    <p>3 - Dada uma frase de entrada por um usuário, faça um programa que conte a ocorrência de cada palavra nesta frase. O programa não deve distinguir letras maiúsculas e minúsculas.<br>
+        Exemplo: “Faça chuva ou faça sol.”     Resultado: faça (2), chuva (1), ou, (1), sol (1)</p>
+
+    
+    <textarea   id="textarea3" name="ex3" rows="15" cols="80"></textarea>
+    <button type="button" onclick="verificarResposta(3)">Testar</button>
+    
+
+
+    <p>4 – Faça um programa que leia uma string de números como entrada de um usuário que
+        representa uma matriz e diga qual dimensão dela (quantidade de linhas e colunas). As linhas
+        da matriz são separadas por um caractere de ponto e vírgula ‘;’e as colunas são separadas por
+        um espaço vazio ‘ ’, como no exemplo:<br>
+        Entrada: 1 4 6 8; 3 5 6 7; 1 3 2 4<br>
+        Resultado: Essa é uma matriz de dimensão 3 x 4.</p>
+
+    <textarea   id="textarea4" name="ex3" rows="15" cols="80"></textarea>
+    <button type="button" onclick="verificarResposta(4)">Testar</button>
+    <p id="feedback4"></p>
+
+
+
+    <p>5 – Dado um número inteiro positivo N como entrada de um usuário, escreva um programa
+        que mostre os primeiros N números da sequência de Fibonacci. (A sequência de Fibonacci é
+        iniciada por 0 e 1, e o próximo número é sempre a soma dos dois últimos). Exemplo:<br>
+        Entrada: 8<br>
+        Resultado: 0, 1, 1, 2, 3, 5, 8, 13</p>
+
+    <textarea   id="textarea5" name="ex3" rows="15" cols="80"></textarea>
+    <button type="button" onclick="verificarResposta(5)">Testar</button>
+    
+
+
+    
+</body>
+</html>
